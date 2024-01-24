@@ -41,6 +41,7 @@ h1{
     font-size: 80px;
     letter-spacing: -1.5px;
     font-weight: 400;
+    margin: 0;
 }
 
 h2{
@@ -89,7 +90,16 @@ footer ul{
     max-width: 900px;
     text-align: center;
 } 
+.hero{
+    background-color:#863ae8;
+height: 100vh;
+color: white;
+}
 
+.hero h1, .hero p{
+    width: 75%;
+    max-width: 900px;
+}
 footer ul li{
     display: inline;
     padding: 0 16px;
@@ -99,3 +109,7 @@ footer li a{
     text-decoration: none;
     color: white;
 }
+footer li a:hover{
+    text-decoration: underline;
+}
+
