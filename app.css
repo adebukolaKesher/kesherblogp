@@ -23,7 +23,10 @@ font-weight: bold;
 font-size: 14px;
 letter-spacing: 1.5px;
 } 
-
+code{
+    color: #e95400;
+    font-weight: bold;
+}
 .info span{
     color: #e95400;
 } 
